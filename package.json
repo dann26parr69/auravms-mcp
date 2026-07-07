@@ -1,6 +1,6 @@
 {
   "name": "auravms-mcp",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "MCP server for AuraVMS \u2014 run RFQ/procurement cycles from any MCP-capable agent: add suppliers, create and send RFQs, pull quotes with L1/L2/L3 ranking, place orders, close out.",
   "keywords": [
     "mcp",
@@ -47,5 +47,6 @@
   },
   "bugs": {
     "url": "https://github.com/dann26parr69/auravms-mcp/issues"
-  }
+  },
+  "mcpName": "io.github.dann26parr69/auravms-mcp"
 }
