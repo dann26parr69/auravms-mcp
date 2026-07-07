@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dann26parr69/auravms-mcp",
+  "description": "Create RFQs, compare supplier quotes with L1/L2/L3 ranking, and place purchase orders.",
+  "repository": {
+    "url": "https://github.com/dann26parr69/auravms-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "websiteUrl": "https://www.auravms.com/docs",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "auravms-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "AVMS_API_KEY",
+          "description": "AuraVMS API key (starts with avms_). Create one in the AuraVMS app under Settings > API Keys.",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
